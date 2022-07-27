@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     padding: 38.5px var(--padding-default);
+    margin-left: 230px;
+    margin-right: 230px;
 }
 .banner__box{
     margin-right: 5%;
@@ -18,7 +20,7 @@
 }
 
 .banner__box__titulo--nombre{
-    color: orangered;
+    color: rgb(0, 214, 128);
 }
 
 .banner__box__subtitulo{
@@ -31,21 +33,21 @@
 }
 
 .oracle__text a{
-    color: orangered;
+    color: rgb(0, 214, 128);
     text-decoration: none;
 }
 
 .oracle__text a:hover{
-    color: rgba(255, 69, 0, 0.3);
+    color: rgba(12, 143, 91, 0.628);
 }
 
 .alura__text a{
-    color: #0072b1;
+    color: #448afa;
     text-decoration: none;
 }
 
 .alura__text a:hover{
-    color: rgba(0, 114, 177, 0.3);
+    color: rgba(25, 124, 177, 0.434);
 }
 
 .banner__mediaLinks{

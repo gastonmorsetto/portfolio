@@ -1,6 +1,6 @@
 .proyectos{
     grid-area: projetos;
-    padding: 32px 0;
+    padding: 38px 0;
 }
 
 .proyectos__box{
@@ -20,7 +20,8 @@
     font-weight: 700;
     font-size: var(--fs-content-titulo700);
     line-height: var(--lh-content-titulo700);
-    margin-bottom: 16px;
+    margin-bottom: 25px;
+    margin-top: 20px;
 }
 
 .proyectos__img{
@@ -29,6 +30,7 @@
     border-radius: 5px;
     box-shadow: -10px 10px 10px black;
     transition: all 0.5s;
+    margin-right: 20px;
 }
 
 .proyectos__img:hover{

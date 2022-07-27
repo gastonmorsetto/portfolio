@@ -1,0 +1,27 @@
+::-webkit-scrollbar{
+	width: 0.75rem;
+}
+
+::-webkit-scrollbar-track{
+	background: #464658;
+}
+::-webkit-scrollbar-thumb{
+	background: #fe3131;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: #fe3131;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: var(--bg-principal);
+    color: var(--color-default);
+    background-image: linear-gradient(to bottom right, #45455a, #000000); 
+}
+
+
+
+

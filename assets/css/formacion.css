@@ -1,6 +1,6 @@
 .formacion{
     background-color: var(--bg-secundario);
-    padding: 64px 0;
+    padding: 68px 0;
 }
 
 .formacion__titulo{
@@ -8,7 +8,7 @@
     font-weight: 700;
     font-size: var(--fs-content-titulo700);
     line-height: var(--lh-content-titulo700);
-    margin-bottom: 16px;
+    margin-bottom: 50px;
     color: white;
 }
 

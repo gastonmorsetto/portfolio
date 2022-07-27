@@ -6,12 +6,13 @@
     justify-content: center;
     padding: 32px var(--padding-default);
 
-    background-color: var(--bg-secundario);
-    
+    background-color: var(--bg-secundario);    
 }
 
 .seccion__sobre__mi__box{
     padding-right: var(--padding-sobreMin);
+    margin-left: 230px;
+    margin-right: 100px;
 }
 
 .seccion__sobre__mi__titulo{
@@ -28,11 +29,11 @@
     font-weight: 400;
     font-size: var(--fs-content-P);
     line-height: var(--lh-content-P);
-    margin-bottom: 16px;
+    margin-bottom: 30px;
 }
 
 .seccion__sobre__mi__parrafo strong{
-    color: orangered;
+    color: rgb(0, 214, 128);
 }
 
 .seccion__sobre__mi__firma{

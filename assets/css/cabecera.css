@@ -1,5 +1,7 @@
 .cabecera{
     padding: 32px var(--padding-default);
+    margin-left: 229px;
+    margin-right: 240px;
 }
 
 .cabecera .container{
@@ -14,7 +16,7 @@
     font-weight: bold;
     padding: 0 1%;
     
-    background: -webkit-linear-gradient(45deg, #f03333 0%, #d33030 25%, #dc2743 50%, #cc8b23 75%, #e6723c 100%); 
+    background: -webkit-linear-gradient(45deg, rgb(0, 214, 128) 0%, #35a281 25%, #2b6188 50%, #326ac5 75%, #448afa 100%); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -39,12 +41,12 @@
 }
 
 .cabecera__nav__lista__items:hover:not(:nth-child(6)) a{
-    text-shadow: 2px 0 0 #ff8000, -2px 0 0 #ff8000, 0 2px 0 #ff8000, 0 -2px 0 #ff8000, 1px 1px #ff8000, -1px -1px 0 #ff8000, 1px -1px 0 #ff8000, -1px 1px 0 #ff8000;
+    text-shadow: 2px 0 0 #448afa, -2px 0 0 #448afa, 0 2px 0 #448afa, 0 -2px 0 #448afa, 1px 1px #448afa, -1px -1px 0 #448afa, 1px -1px 0 #448afa, -1px 1px 0 #448afa;
     color: white;
 }
 
 .cabecera__nav__lista__items:hover:nth-child(6) a{
-    text-shadow: 2px 0 0 #ff8000, -2px 0 0 #ff8000, 0 2px 0 #ff8000, 0 -2px 0 #ff8000, 1px 1px #ff8000, -1px -1px 0 #ff8000, 1px -1px 0 #ff8000, -1px 1px 0 #ff8000;
+    text-shadow: 2px 0 0 #448afa, -2px 0 0 #448afa, 0 2px 0 #448afa, 0 -2px 0 #448afa, 1px 1px #448afa, -1px -1px 0 #448afa, 1px -1px 0 #448afa, -1px 1px 0 #448afa;
     color: white;
 }
 

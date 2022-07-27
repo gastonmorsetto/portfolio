@@ -1,5 +1,5 @@
 footer{
-    position: absolute;
+    position: flex;
     background: url(../imagen/footer.jpg);
 
     width: 100%;
