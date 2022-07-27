@@ -49,32 +49,33 @@
         </div>
     </header>
 
+    <!--Inicio Seccion Banner-->
     <main class="contenido">
-        <section class="sobre__mi">
-            <div class="sobre__mi__box container">
-                <h1 class="sobre__mi__box__titulo">
+        <section class="banner">
+            <div class="banner__box container">
+                <h1 class="banner__box__titulo">
                     Hola mi nombre es 
-                        <strong class="sobre__mi__box__titulo--nombre">Gastón Morsetto </strong>y construyo Páginas Web
+                        <strong class="banner__box__titulo--nombre">Gastón Morsetto </strong>y construyo Páginas Web
                 </h1>
-                <h2 class="sobre__mi__box__subtitulo">
+                <h2 class="banner__box__subtitulo">
                     Estudio Desarrollo Web, desarrollo de Videojuegos, y actualmente estoy participando del proyecto 
                         <strong class="oracle__text"><a href="https://www.oracle.com/ar/education/  
                             oracle-next-education/" target="_blank">Oracle ONE </a></strong>y <strong   
                                 class="alura-text"><a href="https://www.aluracursos.com/" 
                                     target="_blank">Alura</a></strong>!
                 </h2>
-                <ul class="sobre__mi__mediaLinks">
-                    <li class="sobre__mi__mediaLinks--items">
+                <ul class="banner__mediaLinks">
+                    <li class="banner__mediaLinks--items">
                         <a href="https://github.com/gastonmorsetto" target="_blank">
                             <i title="Github" class="bi-github incone"></i> 
                         </a>
                     </li>
-                    <li class="sobre__mi__mediaLinks--items">
+                    <li class="banner__mediaLinks--items">
                         <a href="https://www.linkedin.com/in/gastonmorsetto/" target="_blank">
                             <i title="LinkedIn" class="bi-linkedin incone"></i>
                         </a>
                     </li>
-                    <li class="sobre__mi__mediaLinks--items">
+                    <li class="banner__mediaLinks--items">
                         <a href="#">
                             <i title="Aun no hay curriculum. Disculpe" class="bi-file-earmark-person incone"></i>
                         </a>
@@ -82,145 +83,137 @@
                 </ul>
             </div>
 
-            <div class="foto-porfolio">
-                <img src="./assets/imagen/foto-perfil.jpg" alt="Foto Perfil Gaston">
+            <img class="banner__foto" src="./assets/imagen/foto-perfil.jpg" alt="Foto de Rostro de Gaston 
+                Morsetto" title="Gaston Morsetto">
             </div>
         </section>
+        <!--Fin Seccion Banner-->
 
-            <section id="sobre-mi" class="section-sobre-mi">
-                <div class="div-sobre-mi">
-                    <h2>Sobre mi</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptas aut deserunt, id mollitia nam ratione cumque eius iste, fugit ullam temporibus obcaecati. Dolore cumque numquam est laborum eveniet minima?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus veritatis voluptatibus maxime at magni eligendi cum repellendus necessitatibus nam voluptatem exercitationem nobis, voluptas perferendis in debitis laboriosam quo temporibus illo?</p>
-                    <img class="firma" src="imagen/firma.png" alt="firma">
-                </div>
-            </section>
+        <!--Inicio Seccion Sobre Mi-->
+        <section id="sobre__mi" class="seccion__sobre__mi">
+            <div class="seccion__sobre__mi__box container">
+                <h2 class="seccion__sobre__mi__titulo">Sobre mi</h2>
+                <h3 class="seccion__sobre__mi__parrafo">
+                    Mi nombre es <strong>Gaston Morsetto</strong>, vivo en <strong>Argentina</strong> y tengo 31 años! He estudiado <b>Analista en Sistemas</b> y estoy cursando la carrera <b>Simulaciones Virtuales y Videojuegos</b>. Gracias a estas carreras y de manera informal, adquirí conocimientos básicos en desarrollo frontend con herramientas como <b>CSS3/HTML5/JS</b>, y desarrollo backend con herramientas como <b>Node.JS/Express</b> utilizandolas en CRUDS intermedios. Tengo conocimientos en <b>Programación Orientada a Objetos (POO), JAVA, Git y GitHub</b>.<br /><br />
 
-            <div class="skill-hobbies-academia">
+                    En paralelo a la carrera de Videojuegos, estoy estudiando Desarrollo Web a través del programa <b>Oracle Next Education</b> en alianza con <b>Alura</b>, donde he ido incrementando conocimientos a través del programa y poniendo en práctica estos conocimientos en diferentes proyectos propuestos por el programa.
+                </h3>
+                <h4 class="seccion__sobre__mi__firma">Gaston Morsetto</h4>
+            </div>
+        </section>
+        <!--Fin Seccion Sobre Mi-->
 
-                <div id="skills" class="div-skills">
-                    <h2>Skills</h2>
-                    <ul class="ul-skills">
-                        <li>
-                            <img src="imagen/html5.png" alt="">
-                            <h3>Html 5</h3>
-                        </li>
-                        <li>
-                            <img src="imagen/js.png" alt="">
-                            <h3>Javascrip</h3>
-                        </li>
-                        <li>
-                            <img src="imagen/php.png" alt="">
-                            <h3>PHP</h3>
-                        </li>
-                        <li>
-                            <img src="imagen/node.png" alt="">
-                            <h3>Node JS</h3>
-                        </li>
-                        <li>
-                            <img src="imagen/react.png" alt="">
-                            <h3>React</h3>
-                        </li>
-                        <li>
-                                <img src="imagen/css.png" alt="">
-                                <h3>CSS</h3>
-                        </li>
-                        
+        <!--Inicio Seccion Skills Hobbies-->
+        <section id="skills" class="skills">
+            <div class="skills__box">
+                <h2 class="skills__titulo">Skills</h2>
+                    <nav>
+                        <ul class="skills__cards">
+                            <li class="skills__cards__links"><h3>HTML5</h3></li>
+                            <li class="skills__cards__links"><h3>CSS3</h3></li>
+                            <li class="skills__cards__links"><h3>JavaScript</h3></li>
+                            <li class="skills__cards__links"><h3>Java</h3></li>
+                            <li class="skills__cards__links"><h3>Express</h3></li>
+                            <li class="skills__cards__links"><h3>Node.JS</h3></li>
+                            <li class="skills__cards__links"><h3>Git</h3></li>
+                        </ul>
+                    </nav>
+            </div>
+            <br /><br />
+
+            <div class="skills__box">
+                <h2 class="skills__titulo">Hobbies</h2>
+                    <ul class="skills__cards">
+                        <li class="skills__cards__links cards--hobbies"><h3>Leer</h3></li>
+                        <li class="skills__cards__links cards--hobbies"><h3>Jugar</h3></li>
+                        <li class="skills__cards__links cards--hobbies"><h3>Viajar</h3></li>
+                        <li class="skills__cards__links cards--hobbies"><h3>Aprender</h3></li>
+                        <li class="skills__cards__links cards--hobbies"><h3>Jugar Fútbol</h3></li>
+                        <li class="skills__cards__links cards--hobbies"><h3>Familia</h3></li>
+                        <li class="skills__cards__links cards--hobbies"><h3>Amigos</h3></li>
                     </ul>
-                </div>
+            </div>
+        </section>
+        <!--Fin Seccion Skills Hobbies-->
 
-                <div id="hobbies" class="div-hobbies" >
+        <!--Inicio Formacion Academica-->
+        <section id="formacion" class="formacion">
+            <div class="formacion__box">
+                <h2 class="formacion__titulo">Formación Académica</h2>
+                <div class="formacion__figura__box">
+                    <figure class="formacion__figura">
+                        <img src="./img/ALURA-svg.svg" alt="formacion__figura__imagen">
+                        <figcaption class="formacion__figura__caption">
+                            Camino Formacion Front-End
+                        </figcaption>
+                        <p>2022 - Alura + Oracle One</p>
+                    </figure>
 
-                    <h2>Hobbies</h2>
+                    <figure class="formacion__figura">
+                        <img src="./img/ALURA-svg.svg" alt="formacion__figura__imagen">
+                        <figcaption class="formacion__figura__caption">
+                            Camino Formacion Lógica en Programación
+                        </figcaption>
+                        <p>2022 - Alura + Oracle One</p>
+                    </figure>
 
-                    <ul class="ul-hobbies">
-                        <li>
-                            <img src="imagen/periodicos.png" alt="">
-                            <h3>Leer periódicos</h3>
-                        </li>
-                        <li>
-                            <img src="imagen/gamer.png" alt="">
-                            <h3>Jugar</h3>
-                        </li>
-                        <li>
-                            <img src="imagen/radio.png" alt="">
-                            <h3>Escuchar radio</h3>
-                        </li>
-                        <li>
-                            <img src="imagen/tv.png" alt="">
-                            <h3>Mirar series</h3>
-                        </li>
-                        <li>
-                            <img src="imagen/musica.png" alt="">
-                            <h3>Escuchar música</h3>
-                        </li>
-                        <li>
-                            <img src="imagen/futbol.png" alt="">
-                            <h3>Mirar deportes</h3>
-                        </li>
-                        
-                    </ul>
-                </div>
-
-                <div id="formacion" class="div-formacion">
-
-                    <h2>Formación</h2>
-                    
-                    <ul class="ul-formacion">
-                        <li>
-                            <div class="imagen-formacion">
-                                <img src="imagen/argentina programa2.png" alt="">
-                            </div>
-                            <h3>Se Programar</h3>
-                            <p>2022 - Argentina Programa</p>
-                        </li>
-                        <li>
-                            <div class="imagen-formacion">
-                                <img src="imagen/argentina programa2.png">
-                            </div>
-                            <h3>Yo Programo</h3>                            
-                            <p>2022 - Argentina Programa</p>
-                        </li>
-                        <li>
-                            <div class="imagen-formacion">
-                                <img src="imagen/Alura.png" alt="">
-                            </div>
-                            <h3>Formación en UX Design</h3>
-                            <p>2022 - Alura</p>
-                        </li>
-                    
-                    </ul>
+                    <figure class="formacion__figura">
+                        <img src="./assets/imagen/IESlogonuevo.jpg" alt="formacion__ies__figura__imagen">
+                        <figcaption class="formacion__figura__caption">
+                            Simulaciones Virtuales y Videojuegos
+                        </figcaption>
+                        <p>2022 - IES (En curso)</p>
+                    </figure>
                 </div>
             </div>
+        </section>
+        <!--Fin Formacion Academica-->
+                    
+        <!--Inicio Proyectos-->
+        <section id="proyectos" class="proyectos">
+            <h2 class="proyectos__titulo">Experiencia Profesional</h2>
+                <div class="proyectos__box">
+                    <img src="./assets/imagen/barberia.png" alt="Imagen página principal proyecto Barbería Alura" class="proyectos__img">
 
-            <section id="profesional" class="experiencia-profesional">
-                <h2>Experiencia Profesional</h2>
-                <div class="experiencias">
-                    <div class="trabajo-uno">
-                        <img src="imagen/encriptador.jpg" alt="">
-                        <div class="descripcion-trabajo">
-                            <h3>Encriptador de texto creado con HTML, CSS y JavaScrip</h3>
-                            <p>Alura Challenges Oracle</p>
-                            <div class="botones">
-                                <button class="boton-transparente"><a href="https://github.com/sagunti/challengeonecodificador2.git" target="blank">Repositorio</a></button>
-                                <button class="boton-azul"><a href="https://sagunti.github.io/challengeonecodificador2/" target="blank"  >Ver demo</a></button>
+                        <div class="proyectos__descripcion">
+                            <h3 class="proyectos__descripcion__titulo">Web Barbería Alura</h3>
+                            <h4 class="proyectos__descripcion__subtitulo">Proyecto Web realizado en HTML5 y CSS3</h4>
+                            <div class="proyectos__descripcion__btn__box">
+                                <a href="https://github.com/gastonmorsetto/HTMLyCSS" class="proyectos__descripcion__btn repo" target="blank">Repositorio
+                                </a>
+                                <a href="https://gastonmorsetto.github.io/HTMLyCSS/" class="proyectos__descripcion__btn demo" target="blank" >Ver demo</a>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="trabajo-dos">
-                        <div class="descripcion-trabajo">
-                            <h3>Juego de ahorcado creado con HTML, CSS y JavaScrip</h3>
-                            <p>Alura Challenges Oracle</p>
-                            <div class="botones">
-                                <button class="boton-transparente"><a href="https://github.com/sagunti/challengeoneahorcado2.git" target="blank"        >Repositorio</a></button>
-                                <button class="boton-azul"><a href="https://sagunti.github.io/challengeoneahorcado2/" target="blank">Ver demo</a></button>
-                            </div>
-                        </div>
-                        <img src="imagen/ahorcado.jpg" alt="">
-                    </div>
                 </div>
 
+                <div class="proyectos__box">
+                    <img src="./assets/imagen/desencriptador.png" alt="Imagen página principal proyecto Decodificador de 
+                        Texto" class="proyectos__img">
+
+                        <div class="proyectos__descripcion">
+                            <h3 class="proyectos__descripcion__titulo">Encriptador/Desencriptador de texto</h3>
+                            <h4 class="proyectos__descripcion__subtitulo">Primer Alura Challenges Oracle en HTML5 y CSS3</h4>
+                            <div class="proyectos__descripcion__btn__box">
+                                <a href="https://github.com/gastonmorsetto/Encriptador-Desencriptador-Oracle-One" class="proyectos__descripcion__btn repo" target="blank">Repositorio
+                                </a>
+                                <a href="https://gastonmorsetto.github.io/Encriptador-Desencriptador-Oracle-One/" class="proyectos__descripcion__btn demo" target="blank" >Ver demo</a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="proyectos__box">
+                    <img src="./assets/imagen/juego.png" alt="Imagen página principal proyecto Juego del Ahorcado" class="proyectos__img">
+
+                        <div class="proyectos__descripcion">
+                            <h3 class="proyectos__descripcion__titulo">Juego del Ahorcado</h3>
+                            <h4 class="proyectos__descripcion__subtitulo">Segundo Alura Challenges Oracle en HTML5, CSS3 y Javascript</h4>
+                            <div class="proyectos__descripcion__btn__box">
+                                <a href="https://github.com/gastonmorsetto/juego-ahorcado" class="proyectos__descripcion__btn repo" target="blank">Repositorio
+                                </a>
+                                <a href="https://gastonmorsetto.github.io/juego-ahorcado/" class="proyectos__descripcion__btn demo" target="blank" >Ver demo</a>
+                            </div>
+                        </div>
+                </div>
             </section>
 
         <section class="rodape">
