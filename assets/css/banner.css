@@ -1,0 +1,108 @@
+.banner{
+    grid-area: banner;
+    display: flex;
+    justify-content: center;
+    padding: 38.5px var(--padding-default);
+}
+.banner__box{
+    margin-right: 5%;
+}
+
+.banner__box__titulo{
+    font-weight: 700;
+    font-size: var(--fs-titulo700);
+    line-height: var(--lh-titulo700);
+    text-align: justify;
+    
+    margin-bottom: 24px;
+}
+
+.banner__box__titulo--nombre{
+    color: orangered;
+}
+
+.banner__box__subtitulo{
+    font-weight: 400;
+    font-size: var(--fs-subt400);
+    line-height: var(--lh-subt400);
+    text-align: left;
+    margin-bottom: 24px;
+    
+}
+
+.oracle__text a{
+    color: orangered;
+    text-decoration: none;
+}
+
+.oracle__text a:hover{
+    color: rgba(255, 69, 0, 0.3);
+}
+
+.alura__text a{
+    color: #0072b1;
+    text-decoration: none;
+}
+
+.alura__text a:hover{
+    color: rgba(0, 114, 177, 0.3);
+}
+
+.banner__mediaLinks{
+    display: flex;
+    justify-content: center;
+    padding: 22px 0;
+}
+
+.banner__mediaLinks--items:not(:nth-child(1)){
+    margin-left: 10%;
+}
+
+.banner__mediaLinks--items a{
+    text-decoration: none;
+    color: var(--color-default);
+}
+
+.banner__mediaLinks--items:nth-child(1):hover{
+    transform: scale(1.2);
+}
+
+.banner__mediaLinks--items:nth-child(2):hover{
+    transform: scale(1.2);
+}
+
+.banner__mediaLinks--items:nth-child(3):hover{
+    transform: scale(1.2);
+}
+
+.banner__mediaLinks--items:nth-child(1) a:hover{
+    color: #6e5494;
+}
+
+.banner__mediaLinks--items:nth-child(2) a:hover{
+    color: #0072b1;
+}
+
+.banner__mediaLinks--items:nth-child(3) a:hover{
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.incone{
+    font-size: var(--fs-incones-medias-sociais);
+}
+
+.banner__foto{
+    width: var(--foto-width);
+    height: var(--foto-height);
+    float: right;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 330px){
+    /* .hero{
+      padding: 1%;
+    } */
+  }
