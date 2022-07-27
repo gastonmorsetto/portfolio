@@ -253,33 +253,34 @@
                                     portfolio!">
                                 <div class="input__container">
                                     <input class="input" name="nombre" id="nombre" placeholder="Nombre"
-                                        type="text" required>       
+                                        type="text" maxlength="50" data-tipo="nombre" required>       
                                         <label class="input__label" for="nombre">Nombre:</label>
+                                        <span class="input-message-error">Este campo no es valido</span>
                                 </div>
 
                                 <div class="input__container">
-                                    <input class="input" name="email" id="email" placeholder="Email"
-                                        type="email" required>       
+                                    <input class="input" name="email" id="email" placeholder="email@dominio.com"
+                                        type="email" data-tipo="email" required>       
                                         <label class="input__label" for="email">Email:</label>
+                                        <span class="input-message-error">Este campo no es valido</span>
                                 </div>
 
                                 <div class="input__container">
-                                    <input class="asunto" name="asunto" id="asunto" placeholder="Email"
-                                        type="text" required>       
+                                    <input class="input" name="asunto" id="asunto" placeholder="Asunto"
+                                        type="text" data-tipo="asunto" maxlength="50" required>       
                                         <label class="input__label" for="asunto">Asunto:</label>
+                                        <span class="input-message-error">Este campo no es valido</span>
                                 </div>
 
-                                <textarea name="mensaje" id="mensaje" rows="10" class="textarea 
-                                    contacto__form__textarea" placeholder="Escriba algun mensaje"></textarea>
-                                <label class="textarea__label" for="mensaje"></label>
-                                <div class="btn__box">
-                                    <input class="submit__btn" value="Enviar Mensaje" type="submit">
+                                <div class="textarea__container">
+                                    <textarea name="mensaje" id="mensaje" rows="10" class="textarea 
+                                        contacto__form__textarea" data-tipo="elmensaje" placeholder="Escriba algun mensaje" required></textarea>
+                                    <label class="textarea__label" for="mensaje"></label>
+                                    <span class="textarea-message-error">Este campo no es valido</span>
                                 </div>
-
-                                <div class="input-container">
-                                    <input  name="asunto" type="text" id="asunto"class="input"required data-tipo="asunto"
-                                    placeholder="  Asunto" maxlength="50">
-                                    <span class="input-message-error">Este campo no es valido</span>
+                                    <div class="btn__box">
+                                
+                                    <input class="enviar" value="Enviar Mensaje" type="submit">
                                 </div>
                             </fieldset>
                         </form>
@@ -303,6 +304,7 @@
             <p class="copyright">&copy Copyright Gastón Morsetto - 2022</p>   
         </footer>
         <!--Fin Footer-->
+
         <script src="js/app.js" type="module"></script>
     </body>
 </html>

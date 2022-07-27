@@ -6,10 +6,10 @@
 	background: #464658;
 }
 ::-webkit-scrollbar-thumb{
-	background: #fe3131;
+	background: rgb(0, 214, 128);
 }
 ::-webkit-scrollbar-thumb:hover{
-	background: #fe3131;
+	background: rgb(0, 214, 128);
 }
 
 html {

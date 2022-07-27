@@ -129,7 +129,7 @@
     transition: all 0.25s;
 }
 
-.submit__btn{
+.enviar{
     text-decoration: none;
     padding: 16px;
     margin-top: 10px;
@@ -139,11 +139,11 @@
     cursor: pointer;
 }
 
-.submit__btn:hover{
+.enviar:hover{
     background: #0e62d0;
 }
 
-.submit__btn:active{
+.enviar:active{
     background: #006eff;
     transform: scale(0.9);
 }
