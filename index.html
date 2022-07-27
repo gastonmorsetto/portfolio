@@ -1,265 +1,292 @@
 <!DOCTYPE html>
 
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Gaston Morsetto</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/cabecera.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio Gaston Morsetto</title>
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/cabecera.css">
 
-    <!--ICONS BOOTSTRAP PARA Github, Instagram e LinkedIn-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" rel="stylesheet">
-    <!--FONT RAFAEL PERES ASSINATURA-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
-    <!--FONT Raleway Principal-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-</head>
-<body class="app">
-    <header class="cabecera">
-        <div class="container">  
-            <h2 class="cabecera__logo">Gaston Morsetto</h2>
-            <nav class="cabecera__nav">
-                <ul class="cabecera__nav__ul" >
-                    <li class="cabecera__nav__lista__items">
-                        <a class="cabecera__nav__lista__items__links" href="#sobre">Sobre mi</a>
-                    </li>
-                    <li class="cabecera__nav__lista__items">
-                        <a class="cabecera__nav__lista__items__links"  href="#skills"> Skills</a>
-                    </li>
-                    <li class="cabecera__nav__lista__items">
-                        <a class="cabecera__nav__lista__items__links"  href="#hobbies">Hobbies</a>
-                    </li>
-                    <li class="cabecera__nav__lista__items">
-                        <a class="cabecera__nav__lista__items__links" href="#formacion">Formación</a>
-                    </li>
-                    <li class="cabecera__nav__lista__items">
-                        <a class="cabecera__nav__lista__items__links"  href="#profesional">Proyectos</a>
-                    </li>
-                    <li class="cabecera__nav__lista__items">
-                        <a class="cabecera__nav__lista__items__links"  href="mailto:seralemon1@gmail.com"><strong>Escribeme!</strong></a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        <!--ICONS BOOTSTRAP PARA Github, Instagram e LinkedIn-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" rel="stylesheet">
+        <!--FONT RAFAEL PERES ASSINATURA-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+        <!--FONT Raleway Principal-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/652cc2b475.js" crossorigin="anonymous"></script> 
+    </head>
 
-    <!--Inicio Seccion Banner-->
-    <main class="contenido">
-        <section class="banner">
-            <div class="banner__box container">
-                <h1 class="banner__box__titulo">
-                    Hola mi nombre es 
-                        <strong class="banner__box__titulo--nombre">Gastón Morsetto </strong>y construyo Páginas Web
-                </h1>
-                <h2 class="banner__box__subtitulo">
-                    Estudio Desarrollo Web, desarrollo de Videojuegos, y actualmente estoy participando del proyecto 
-                        <strong class="oracle__text"><a href="https://www.oracle.com/ar/education/  
-                            oracle-next-education/" target="_blank">Oracle ONE </a></strong>y <strong   
-                                class="alura-text"><a href="https://www.aluracursos.com/" 
-                                    target="_blank">Alura</a></strong>!
-                </h2>
-                <ul class="banner__mediaLinks">
-                    <li class="banner__mediaLinks--items">
-                        <a href="https://github.com/gastonmorsetto" target="_blank">
-                            <i title="Github" class="bi-github incone"></i> 
-                        </a>
-                    </li>
-                    <li class="banner__mediaLinks--items">
-                        <a href="https://www.linkedin.com/in/gastonmorsetto/" target="_blank">
-                            <i title="LinkedIn" class="bi-linkedin incone"></i>
-                        </a>
-                    </li>
-                    <li class="banner__mediaLinks--items">
-                        <a href="#">
-                            <i title="Aun no hay curriculum. Disculpe" class="bi-file-earmark-person incone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <img class="banner__foto" src="./assets/imagen/foto-perfil.jpg" alt="Foto de Rostro de Gaston 
-                Morsetto" title="Gaston Morsetto">
-            </div>
-        </section>
-        <!--Fin Seccion Banner-->
-
-        <!--Inicio Seccion Sobre Mi-->
-        <section id="sobre__mi" class="seccion__sobre__mi">
-            <div class="seccion__sobre__mi__box container">
-                <h2 class="seccion__sobre__mi__titulo">Sobre mi</h2>
-                <h3 class="seccion__sobre__mi__parrafo">
-                    Mi nombre es <strong>Gaston Morsetto</strong>, vivo en <strong>Argentina</strong> y tengo 31 años! He estudiado <b>Analista en Sistemas</b> y estoy cursando la carrera <b>Simulaciones Virtuales y Videojuegos</b>. Gracias a estas carreras y de manera informal, adquirí conocimientos básicos en desarrollo frontend con herramientas como <b>CSS3/HTML5/JS</b>, y desarrollo backend con herramientas como <b>Node.JS/Express</b> utilizandolas en CRUDS intermedios. Tengo conocimientos en <b>Programación Orientada a Objetos (POO), JAVA, Git y GitHub</b>.<br /><br />
-
-                    En paralelo a la carrera de Videojuegos, estoy estudiando Desarrollo Web a través del programa <b>Oracle Next Education</b> en alianza con <b>Alura</b>, donde he ido incrementando conocimientos a través del programa y poniendo en práctica estos conocimientos en diferentes proyectos propuestos por el programa.
-                </h3>
-                <h4 class="seccion__sobre__mi__firma">Gaston Morsetto</h4>
-            </div>
-        </section>
-        <!--Fin Seccion Sobre Mi-->
-
-        <!--Inicio Seccion Skills Hobbies-->
-        <section id="skills" class="skills">
-            <div class="skills__box">
-                <h2 class="skills__titulo">Skills</h2>
-                    <nav>
-                        <ul class="skills__cards">
-                            <li class="skills__cards__links"><h3>HTML5</h3></li>
-                            <li class="skills__cards__links"><h3>CSS3</h3></li>
-                            <li class="skills__cards__links"><h3>JavaScript</h3></li>
-                            <li class="skills__cards__links"><h3>Java</h3></li>
-                            <li class="skills__cards__links"><h3>Express</h3></li>
-                            <li class="skills__cards__links"><h3>Node.JS</h3></li>
-                            <li class="skills__cards__links"><h3>Git</h3></li>
-                        </ul>
-                    </nav>
-            </div>
-            <br /><br />
-
-            <div class="skills__box">
-                <h2 class="skills__titulo">Hobbies</h2>
-                    <ul class="skills__cards">
-                        <li class="skills__cards__links cards--hobbies"><h3>Leer</h3></li>
-                        <li class="skills__cards__links cards--hobbies"><h3>Jugar</h3></li>
-                        <li class="skills__cards__links cards--hobbies"><h3>Viajar</h3></li>
-                        <li class="skills__cards__links cards--hobbies"><h3>Aprender</h3></li>
-                        <li class="skills__cards__links cards--hobbies"><h3>Jugar Fútbol</h3></li>
-                        <li class="skills__cards__links cards--hobbies"><h3>Familia</h3></li>
-                        <li class="skills__cards__links cards--hobbies"><h3>Amigos</h3></li>
+    <body class="app">
+        <!--Inicio Header-->
+        <header class="cabecera">
+            <div class="container">  
+                <h2 class="cabecera__logo">Gaston Morsetto</h2>
+                <nav class="cabecera__nav">
+                    <ul class="cabecera__nav__ul" >
+                        <li class="cabecera__nav__lista__items">
+                            <a class="cabecera__nav__lista__items__links" href="#sobre">Sobre mi</a>
+                        </li>
+                        <li class="cabecera__nav__lista__items">
+                            <a class="cabecera__nav__lista__items__links"  href="#skills"> Skills</a>
+                        </li>
+                        <li class="cabecera__nav__lista__items">
+                            <a class="cabecera__nav__lista__items__links"  href="#hobbies">Hobbies</a>
+                        </li>
+                        <li class="cabecera__nav__lista__items">
+                            <a class="cabecera__nav__lista__items__links" href="#formacion">Formación</a>
+                        </li>
+                        <li class="cabecera__nav__lista__items">
+                            <a class="cabecera__nav__lista__items__links"  href="#profesional">Proyectos</a>
+                        </li>
+                        <li class="cabecera__nav__lista__items">
+                            <a class="cabecera__nav__lista__items__links"  href="mailto:seralemon1@gmail.com"><strong>Escribeme!</strong></a>
+                        </li>
                     </ul>
+                </nav>
             </div>
-        </section>
-        <!--Fin Seccion Skills Hobbies-->
+        </header>
+        <!--Fin Header-->
 
-        <!--Inicio Formacion Academica-->
-        <section id="formacion" class="formacion">
-            <div class="formacion__box">
-                <h2 class="formacion__titulo">Formación Académica</h2>
-                <div class="formacion__figura__box">
-                    <figure class="formacion__figura">
-                        <img src="./img/ALURA-svg.svg" alt="formacion__figura__imagen">
-                        <figcaption class="formacion__figura__caption">
-                            Camino Formacion Front-End
-                        </figcaption>
-                        <p>2022 - Alura + Oracle One</p>
-                    </figure>
-
-                    <figure class="formacion__figura">
-                        <img src="./img/ALURA-svg.svg" alt="formacion__figura__imagen">
-                        <figcaption class="formacion__figura__caption">
-                            Camino Formacion Lógica en Programación
-                        </figcaption>
-                        <p>2022 - Alura + Oracle One</p>
-                    </figure>
-
-                    <figure class="formacion__figura">
-                        <img src="./assets/imagen/IESlogonuevo.jpg" alt="formacion__ies__figura__imagen">
-                        <figcaption class="formacion__figura__caption">
-                            Simulaciones Virtuales y Videojuegos
-                        </figcaption>
-                        <p>2022 - IES (En curso)</p>
-                    </figure>
-                </div>
-            </div>
-        </section>
-        <!--Fin Formacion Academica-->
-                    
-        <!--Inicio Proyectos-->
-        <section id="proyectos" class="proyectos">
-            <h2 class="proyectos__titulo">Experiencia Profesional</h2>
-                <div class="proyectos__box">
-                    <img src="./assets/imagen/barberia.png" alt="Imagen página principal proyecto Barbería Alura" class="proyectos__img">
-
-                        <div class="proyectos__descripcion">
-                            <h3 class="proyectos__descripcion__titulo">Web Barbería Alura</h3>
-                            <h4 class="proyectos__descripcion__subtitulo">Proyecto Web realizado en HTML5 y CSS3</h4>
-                            <div class="proyectos__descripcion__btn__box">
-                                <a href="https://github.com/gastonmorsetto/HTMLyCSS" class="proyectos__descripcion__btn repo" target="blank">Repositorio
-                                </a>
-                                <a href="https://gastonmorsetto.github.io/HTMLyCSS/" class="proyectos__descripcion__btn demo" target="blank" >Ver demo</a>
-                            </div>
-                        </div>
+        <!--Inicio Main Contenido-->
+        <main class="contenido">
+            <!--Inicio Seccion Banner-->
+            <section class="banner">
+                <div class="banner__box container">
+                    <h1 class="banner__box__titulo">
+                        Hola mi nombre es 
+                            <strong class="banner__box__titulo--nombre">Gastón Morsetto </strong>y construyo Páginas Web
+                    </h1>
+                    <h2 class="banner__box__subtitulo">
+                        Estudio Desarrollo Web, desarrollo de Videojuegos, y actualmente estoy participando del proyecto 
+                            <strong class="oracle__text"><a href="https://www.oracle.com/ar/education/  
+                                oracle-next-education/" target="_blank">Oracle ONE </a></strong>y <strong   
+                                    class="alura-text"><a href="https://www.aluracursos.com/" 
+                                        target="_blank">Alura</a></strong>!
+                    </h2>
+                    <ul class="banner__mediaLinks">
+                        <li class="banner__mediaLinks--items">
+                            <a href="https://github.com/gastonmorsetto" target="_blank">
+                                <i title="Github" class="bi-github incone"></i> 
+                            </a>
+                        </li>
+                        <li class="banner__mediaLinks--items">
+                            <a href="https://www.linkedin.com/in/gastonmorsetto/" target="_blank">
+                                <i title="LinkedIn" class="bi-linkedin incone"></i>
+                            </a>
+                        </li>
+                        <li class="banner__mediaLinks--items">
+                            <a href="#">
+                                <i title="Aun no hay curriculum. Disculpe" class="bi-file-earmark-person incone"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="proyectos__box">
-                    <img src="./assets/imagen/desencriptador.png" alt="Imagen página principal proyecto Decodificador de 
-                        Texto" class="proyectos__img">
-
-                        <div class="proyectos__descripcion">
-                            <h3 class="proyectos__descripcion__titulo">Encriptador/Desencriptador de texto</h3>
-                            <h4 class="proyectos__descripcion__subtitulo">Primer Alura Challenges Oracle en HTML5 y CSS3</h4>
-                            <div class="proyectos__descripcion__btn__box">
-                                <a href="https://github.com/gastonmorsetto/Encriptador-Desencriptador-Oracle-One" class="proyectos__descripcion__btn repo" target="blank">Repositorio
-                                </a>
-                                <a href="https://gastonmorsetto.github.io/Encriptador-Desencriptador-Oracle-One/" class="proyectos__descripcion__btn demo" target="blank" >Ver demo</a>
-                            </div>
-                        </div>
-                </div>
-
-                <div class="proyectos__box">
-                    <img src="./assets/imagen/juego.png" alt="Imagen página principal proyecto Juego del Ahorcado" class="proyectos__img">
-
-                        <div class="proyectos__descripcion">
-                            <h3 class="proyectos__descripcion__titulo">Juego del Ahorcado</h3>
-                            <h4 class="proyectos__descripcion__subtitulo">Segundo Alura Challenges Oracle en HTML5, CSS3 y Javascript</h4>
-                            <div class="proyectos__descripcion__btn__box">
-                                <a href="https://github.com/gastonmorsetto/juego-ahorcado" class="proyectos__descripcion__btn repo" target="blank">Repositorio
-                                </a>
-                                <a href="https://gastonmorsetto.github.io/juego-ahorcado/" class="proyectos__descripcion__btn demo" target="blank" >Ver demo</a>
-                            </div>
-                        </div>
+                <img class="banner__foto" src="./assets/imagen/foto-perfil.jpg" alt="Foto de Rostro de Gaston 
+                    Morsetto" title="Gaston Morsetto">
                 </div>
             </section>
+            <!--Fin Seccion Banner-->
 
-        <section class="rodape">
-            <div class="contacto">
-                <div>
-                    <img src="imagen/contacto.png" alt="">
+            <!--Inicio Seccion Sobre Mi-->
+            <section id="sobre__mi" class="seccion__sobre__mi">
+                <div class="seccion__sobre__mi__box container">
+                    <h2 class="seccion__sobre__mi__titulo">Sobre mi</h2>
+                    <h3 class="seccion__sobre__mi__parrafo">
+                        Mi nombre es <strong>Gaston Morsetto</strong>, vivo en <strong>Argentina</strong> y tengo 31 años! He estudiado <b>Analista en Sistemas</b> y estoy cursando la carrera <b>Simulaciones Virtuales y Videojuegos</b>. Gracias a estas carreras y de manera informal, adquirí conocimientos básicos en desarrollo frontend con herramientas como <b>CSS3/HTML5/JS</b>, y desarrollo backend con herramientas como <b>Node.JS/Express</b> utilizandolas en CRUDS intermedios. Tengo conocimientos en <b>Programación Orientada a Objetos (POO), JAVA, Git y GitHub</b>.<br /><br />
+
+                        En paralelo a la carrera de Videojuegos, estoy estudiando Desarrollo Web a través del programa <b>Oracle Next Education</b> en alianza con <b>Alura</b>, donde he ido incrementando conocimientos a través del programa y poniendo en práctica estos conocimientos en diferentes proyectos propuestos por el programa.
+                    </h3>
+                    <h4 class="seccion__sobre__mi__firma">Gaston Morsetto</h4>
                 </div>
-                <form >
-                    <div class="titulo-contacto">
-                        <h2>Contacto</h2>
-                        <p>¿Quieres contactarme?</p>
-                        <p>Complete el siguiente formulario y me pondré en contacto lo antes posible.</p>
+            </section>
+            <!--Fin Seccion Sobre Mi-->
+
+            <!--Inicio Seccion Skills Hobbies-->
+            <section id="skills" class="skills">
+                <div class="skills__box">
+                    <h2 class="skills__titulo">Skills</h2>
+                        <nav>
+                            <ul class="skills__cards">
+                                <li class="skills__cards__links"><h3>HTML5</h3></li>
+                                <li class="skills__cards__links"><h3>CSS3</h3></li>
+                                <li class="skills__cards__links"><h3>JavaScript</h3></li>
+                                <li class="skills__cards__links"><h3>Java</h3></li>
+                                <li class="skills__cards__links"><h3>Express</h3></li>
+                                <li class="skills__cards__links"><h3>Node.JS</h3></li>
+                                <li class="skills__cards__links"><h3>Git</h3></li>
+                            </ul>
+                        </nav>
+                </div>
+                <br /><br />
+
+                <div class="skills__box">
+                    <h2 class="skills__titulo">Hobbies</h2>
+                        <ul class="skills__cards">
+                            <li class="skills__cards__links cards--hobbies"><h3>Leer</h3></li>
+                            <li class="skills__cards__links cards--hobbies"><h3>Jugar</h3></li>
+                            <li class="skills__cards__links cards--hobbies"><h3>Viajar</h3></li>
+                            <li class="skills__cards__links cards--hobbies"><h3>Aprender</h3></li>
+                            <li class="skills__cards__links cards--hobbies"><h3>Jugar Fútbol</h3></li>
+                            <li class="skills__cards__links cards--hobbies"><h3>Familia</h3></li>
+                            <li class="skills__cards__links cards--hobbies"><h3>Amigos</h3></li>
+                        </ul>
+                </div>
+            </section>
+            <!--Fin Seccion Skills Hobbies-->
+
+            <!--Inicio Formacion Academica-->
+            <section id="formacion" class="formacion">
+                <div class="formacion__box">
+                    <h2 class="formacion__titulo">Formación Académica</h2>
+                    <div class="formacion__figura__box">
+                        <figure class="formacion__figura">
+                            <img src="./assets/imagen/ALURA-svg.svg" alt="formacion__figura__imagen">
+                            <figcaption class="formacion__figura__caption">
+                                Camino Formacion Front-End
+                            </figcaption>
+                            <p>2022 - Alura + Oracle One</p>
+                        </figure>
+
+                        <figure class="formacion__figura">
+                            <img src="./assets/imagen/ALURA-svg.svg" alt="formacion__figura__imagen">
+                            <figcaption class="formacion__figura__caption">
+                                Camino Formacion Lógica en Programación
+                            </figcaption>
+                            <p>2022 - Alura + Oracle One</p>
+                        </figure>
+
+                        <figure class="formacion__figura">
+                            <img src="./assets/imagen/IESlogonuevo.jpg" alt="formacion__ies__figura__imagen">
+                            <figcaption class="formacion__figura__caption">
+                                Simulaciones Virtuales y Videojuegos
+                            </figcaption>
+                            <p>2022 - IES (En curso)</p>
+                        </figure>
                     </div>
-                        <div class="input-container">
-                            <input  name="nombre" type="text" id="nombreyapellido" class="input" required data-tipo="nombre" placeholder="  Nombres y Apellidos" maxlength="50">
-                            <span class="input-message-error">Este campo no es valido</span>
-                        </div>
+                </div>
+            </section>
+            <!--Fin Formacion Academica-->
+                        
+            <!--Inicio Proyectos-->
+            <section id="proyectos" class="proyectos">
+                <h2 class="proyectos__titulo">Experiencia Profesional</h2>
+                    <div class="proyectos__box">
+                        <img src="./assets/imagen/barberia.png" alt="Imagen página principal proyecto Barbería Alura" class="proyectos__img">
 
-                        <div class="input-container">
-                            <input name="email"type="email" id="correo"class="input"required data-tipo="email" 
-                            placeholder="  email@dominio.com">
-                            <span class="input-message-error">Este campo no es valido</span>
-                        </div>
+                            <div class="proyectos__descripcion">
+                                <h3 class="proyectos__descripcion__titulo">Web Barbería Alura</h3>
+                                <h4 class="proyectos__descripcion__subtitulo">Proyecto Web realizado en HTML5 y CSS3</h4>
+                                <div class="proyectos__descripcion__btn__box">
+                                    <a href="https://github.com/gastonmorsetto/HTMLyCSS" class="proyectos__descripcion__btn repo" target="blank">Repositorio
+                                    </a>
+                                    <a href="https://gastonmorsetto.github.io/HTMLyCSS/" class="proyectos__descripcion__btn demo" target="blank" >Ver demo</a>
+                                </div>
+                            </div>
+                    </div>
 
-                        <div class="input-container">
-                            <input  name="asunto" type="text" id="asunto"class="input"required data-tipo="asunto"
-                            placeholder="  Asunto" maxlength="50">
-                            <span class="input-message-error">Este campo no es valido</span>
-                        </div>
+                    <div class="proyectos__box">
+                        <img src="./assets/imagen/desencriptador.png" alt="Imagen página principal proyecto Decodificador de 
+                            Texto" class="proyectos__img">
 
-                        <div class="textarea-container">   
-                            <textarea name="mensaje" id="mensaje" class="textarea" placeholder="  Mensaje" data-tipo="elmensaje" maxlength="300" required></textarea>
-                            <span class="textarea-message-error">Este campo no es valido</span>
-                        </div>
+                            <div class="proyectos__descripcion">
+                                <h3 class="proyectos__descripcion__titulo">Encriptador/Desencriptador de texto</h3>
+                                <h4 class="proyectos__descripcion__subtitulo">Primer Alura Challenges Oracle en HTML5 y CSS3</h4>
+                                <div class="proyectos__descripcion__btn__box">
+                                    <a href="https://github.com/gastonmorsetto/Encriptador-Desencriptador-Oracle-One" class="proyectos__descripcion__btn repo" target="blank">Repositorio
+                                    </a>
+                                    <a href="https://gastonmorsetto.github.io/Encriptador-Desencriptador-Oracle-One/" class="proyectos__descripcion__btn demo" target="blank" >Ver demo</a>
+                                </div>
+                            </div>
+                    </div>
 
-                            <input type="submit" value="Enviar Mensaje"class="enviar">
+                    <div class="proyectos__box">
+                        <img src="./assets/imagen/juego.png" alt="Imagen página principal proyecto Juego del Ahorcado" class="proyectos__img">
+
+                            <div class="proyectos__descripcion">
+                                <h3 class="proyectos__descripcion__titulo">Juego del Ahorcado</h3>
+                                <h4 class="proyectos__descripcion__subtitulo">Segundo Alura Challenges Oracle en HTML5, CSS3 y Javascript</h4>
+                                <div class="proyectos__descripcion__btn__box">
+                                    <a href="https://github.com/gastonmorsetto/juego-ahorcado" class="proyectos__descripcion__btn repo" target="blank">Repositorio
+                                    </a>
+                                    <a href="https://gastonmorsetto.github.io/juego-ahorcado/" class="proyectos__descripcion__btn demo" target="blank" >Ver demo</a>
+                                </div>
+                            </div>
+                    </div>
+            </section>
+            <!--Fin Proyectos-->
+
+            <!--Inicio Contacto-->
+            <section class="contacto">
+                <div class="contacto__box">
+                    <img src="./assets/imagen/contato-png.png" alt="Imagen de un teléfono de cable sobre superficie 
+                        gris" class="contacto__img">
+                    <div class="contacto__form"></div>
+                        <h2 class="contacto__form__titulo">Contacto</h2>
+                        <h4 class="contacto__form__subtitulo">¿Quieres contactarme? <br>
+                            Complete el siguiente formulario y me pondré en contacto lo antes posible.</h4>
+                        <form action="https://formsubmit.co/gastonmorsetto@gmail.com" method="POST">
+                            <fieldset>
+                                <input  name="_subject" type="hidden" value="Nuevo correo electrónico de su 
+                                    portfolio!">
+                                <div class="input__container">
+                                    <input class="input" name="nombre" id="nombre" placeholder="Nombre"
+                                        type="text" required>       
+                                        <label class="input__label" for="nombre">Nombre:</label>
+                                </div>
+
+                                <div class="input__container">
+                                    <input class="input" name="email" id="email" placeholder="Email"
+                                        type="email" required>       
+                                        <label class="input__label" for="email">Email:</label>
+                                </div>
+
+                                <div class="input__container">
+                                    <input class="asunto" name="asunto" id="asunto" placeholder="Email"
+                                        type="text" required>       
+                                        <label class="input__label" for="asunto">Asunto:</label>
+                                </div>
+
+                                <textarea name="mensaje" id="mensaje" rows="10" class="textarea 
+                                    contacto__form__textarea" placeholder="Escriba algun mensaje"></textarea>
+                                <label class="textarea__label" for="mensaje"></label>
+                                <div class="btn__box">
+                                    <input class="submit__btn" value="Enviar Mensaje" type="submit">
+                                </div>
+
+                                <div class="input-container">
+                                    <input  name="asunto" type="text" id="asunto"class="input"required data-tipo="asunto"
+                                    placeholder="  Asunto" maxlength="50">
+                                    <span class="input-message-error">Este campo no es valido</span>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!--Fin Contacto-->
+        </main>
+        <!--Fin Main Contenido-->
+
+        <!--Inicio Footer-->
+        <footer class="footer">
+            <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="_blank" rel="noopener noreferrer"><img class="one" src="imagenes/one.png" alt="Oracle One"></a>
         
-                
-                </form>
-            </div>
-
-            <footer>
-                <p class="footer">Programado por Sergio Alepuz Monreal - Curso Alura Julio 2022</p>   
-            </footer>
-        </section>
-    </main>
-    <script src="js/app.js" type="module"></script>
-</body>
+            <fieldset class="iconos">
+                <a href="https://www.linkedin.com/in/gastonmorsetto/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/gastonmorsetto" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/gastonmorsetto" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+            </fieldset>
+        
+            <p class="copyright">&copy Copyright Gastón Morsetto - 2022</p>   
+        </footer>
+        <!--Fin Footer-->
+        <script src="js/app.js" type="module"></script>
+    </body>
 </html>
