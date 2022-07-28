@@ -6,6 +6,7 @@
     margin-left: 230px;
     margin-right: 230px;
 }
+
 .banner__box{
     margin-right: 5%;
 }
@@ -29,7 +30,6 @@
     line-height: var(--lh-subt400);
     text-align: left;
     margin-bottom: 24px;
-    
 }
 
 .oracle__text a{
@@ -103,8 +103,91 @@
     border: 2px solid rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 330px){
-    /* .hero{
-      padding: 1%;
-    } */
-  }
+
+/* Smartphone */
+@media screen and (max-width: 480px){
+
+}
+
+
+/* Tablet Mediana */
+@media screen and (max-width: 768px){
+
+}
+
+
+/* Tablet Grande */
+@media screen and (max-width: 1024px){
+
+    .banner {
+        padding: 0px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .banner__box{
+        margin-right: 10%;
+    }
+
+    .banner__box__titulo{
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 48px;
+        text-align: justify;
+    }
+
+    .banner__box__subtitulo {
+        font-weight: 1;
+        font-size: 22px;
+    }
+
+    .banner__foto{
+        width: 300px;
+        height: 300px;
+    }
+
+    .banner__mediaLinks{
+        display: flex;
+        justify-content: center;
+        padding: 5px 0;
+        margin-bottom: 22px;
+    }
+}
+
+/* Notebook 14" */
+@media screen and (max-width: 1300px){
+
+    .banner {
+        padding: 0px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .banner__box{
+        margin-right: 10%;
+    }
+
+    .banner__box__titulo{
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 48px;
+        text-align: justify;
+    }
+
+    .banner__box__subtitulo {
+        font-weight: 1;
+        font-size: 22px;
+    }
+
+    .banner__foto{
+        width: 320px;
+        height: 320px;
+    }
+
+    .banner__mediaLinks{
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+        margin-bottom: 22px;
+    }
+}

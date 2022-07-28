@@ -49,55 +49,67 @@
 }
 
 .skills__cards__links:nth-child(1){
-    background: var(--bg-skill-card) url(../imagen/HTML-svg.svg) center / 20% no-repeat;
+    background: var(--bg-skill-card) url(../imagen/html5-svg.svg) center / 35% no-repeat;
 }
 
 .skills__cards__links:nth-child(2) {
-    background: var(--bg-skill-card) url(../imagen/CSS-svg.svg) center / 20% no-repeat;
+    background: var(--bg-skill-card) url(../imagen/css3-svg.svg) center / 35% no-repeat;
 }
 
 .skills__cards__links:nth-child(3) {
-    background: var(--bg-skill-card) url(../imagen/JS-svg.svg) center / 20% no-repeat;
+    background: var(--bg-skill-card) url(../imagen/js-svg.svg) center / 30% no-repeat;
 }
 
 .skills__cards__links:nth-child(4) {
-    background: var(--bg-skill-card) url(../imagen/java-svg.svg) center / 30% no-repeat;
+    background: var(--bg-skill-card) url(../imagen/java-svg.svg) center / 38% no-repeat;
 }
 
 .skills__cards__links:nth-child(5) {
-    background: var(--bg-skill-card) url(../imagen/express-svg.svg) center / 25% no-repeat;
+    background: var(--bg-skill-card) url(../imagen/express-svg.svg) center / 35% no-repeat;
 }
 
 .skills__cards__links:nth-child(6) {
-    background: var(--bg-skill-card) url(../imagen/nodejs-svg.svg) center / 35% no-repeat;
+    background: var(--bg-skill-card) url(../imagen/nodejs-svg.svg) center / 38% no-repeat;
 }
 .skills__cards__links:nth-child(7) {
-    background: var(--bg-skill-card) url(../imagen/GIT-svg.svg) center / 20% no-repeat;
+    background: var(--bg-skill-card) url(../imagen/git-svg.svg) center / 35% no-repeat;
 }
 
 .skills__cards__links:nth-child(8) {
-    background: var(--bg-skill-card) url(../imagen/GITHUB-svg.svg) center / 20% no-repeat;
+    background: var(--bg-skill-card) url(../imagen/github-svg.svg) center / 35% no-repeat;
 }
 
 .cards--hobbies:nth-child(1) {
-    background: var(--bg-skill-card) url(../imagen/guitar.svg) center / 20% no-repeat;
+    background: var(--bg-skill-card) url(../imagen/ibooks-svg.svg) center / 35% no-repeat;
 }
 
 .cards--hobbies:nth-child(2) {
-    background: var(--bg-skill-card) url(../imagen/music-svg.svg) center / 20% no-repeat;
+    background: var(--bg-skill-card) url(../imagen/jugar-svg.svg) center / 35% no-repeat;
 }
 
 .cards--hobbies:nth-child(3) {
-    background: var(--bg-skill-card) url(../imagen/controller-svg.svg) center / 20% no-repeat;
+    background: var(--bg-skill-card) url(../imagen/viajar-svg.svg) center / 35% no-repeat;
 }
 
 .cards--hobbies:nth-child(4) {
-    background: var(--bg-skill-card) url(../imagen/MICROFONE-svg.svg) center / 13% no-repeat;
+    background: var(--bg-skill-card) url(../imagen/aprender-svg.svg) center / 35% no-repeat;
     font-size: smaller;
 }
 
 .cards--hobbies:nth-child(5) {
-    background: var(--bg-skill-card) url(../imagen/controller-svg.svg) center / 20% no-repeat;
+    background: var(--bg-skill-card) url(../imagen/deporte-svg.svg) center / 30% no-repeat;
+}
+
+.cards--hobbies:nth-child(6) {
+    background: var(--bg-skill-card) url(../imagen/familia-svg.svg) center / 40% no-repeat;
+}
+
+.cards--hobbies:nth-child(7) {
+    background: var(--bg-skill-card) url(../imagen/amigos-svg.svg) center / 45% no-repeat;
+}
+
+.cards--hobbies:nth-child(8) {
+    background: var(--bg-skill-card) url(../imagen/musica-svg.svg) center / 30% no-repeat;
 }
 
 @media screen and (max-width: 768px){
