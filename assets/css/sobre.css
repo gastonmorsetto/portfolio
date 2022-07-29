@@ -42,15 +42,36 @@
     font-family: 'Babylonica', cursive;
 }
 
-@media screen and (max-width: 500px){
-    .aboutMe, .aboutMe__box{
-      padding: 2%;
-    }
+
+/* Smartphone */
+@media screen and (max-width: 480px){
+
+}
+
+
+/* Tablet Mediana */
+@media screen and (max-width: 768px){
+
+}
+
+
+/* Tablet Grande */
+@media screen and (max-width: 1024px){
+
+}
+
+/* Notebook 14" */
+@media screen and (max-width: 1300px){
+
+  .seccion__sobre__mi{
+    padding: 0px;
   }
-  
-  
-  @media screen and (max-width: 330px){
-    .aboutMe, .aboutMe__box{
-      padding: 2%;
-    }
+
+  .seccion__sobre__mi__box{
+    padding-right: 0px;
+    margin-left: 200px;
+    margin-right: 182px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
+}

@@ -112,24 +112,40 @@
     background: var(--bg-skill-card) url(../imagen/musica-svg.svg) center / 30% no-repeat;
 }
 
+
+/* Smartphone */
+@media screen and (max-width: 480px){
+
+}
+
+
+/* Tablet Mediana */
 @media screen and (max-width: 768px){
-      .skills__cards___link{
-          width: 120px;
-          height: 120px;
-      }
-  }
-  @media screen and (max-width: 330px){
-      .skills__cards___link{
-          width: 330px;
-          height: 286px;
-      }
-      .skills__cards{
-          justify-content: flex-start;
-      }
-      .skills__cards___link{
-          margin: 2%;
-      }
-      
-  }
-  
-  
+
+}
+
+
+/* Tablet Grande */
+@media screen and (max-width: 1024px){
+
+}
+
+/* Notebook 14" */
+@media screen and (max-width: 1300px){
+
+    .skills{
+        padding: 20px 0;
+    }
+
+    .skills__titulo{
+        margin-bottom: 30px;
+    }
+
+    .skills__cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-top: 40px;
+    }
+}
