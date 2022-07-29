@@ -1,5 +1,5 @@
 .proyectos{
-    grid-area: projetos;
+    grid-area: proyectos;
     padding: 38px 0;
 }
 
@@ -34,8 +34,7 @@
 }
 
 .proyectos__img:hover{
-    transform: scale(1.03);
-    
+    transform: scale(1.03);  
 }
 
 .proyectos__descripcion__titulo{
@@ -90,36 +89,38 @@
     transform: scale(0.8);
 }
 
-@media screen and (max-width: 1180px) {
-    .projetos__box{
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
-    .projetos__img{
-      width: 90%;
-      height: 90%;
-    }
-    .projetos{
-      padding: 32px var(--padding-default);
-    }
-    .projetos__descricao{
-      padding-left: 5%;
-      align-self: flex-start;
-    }
+/* Smartphone */
+@media screen and (max-width: 480px){
+
+}
+
+
+/* Tablet Mediana */
+@media screen and (max-width: 768px){
+
+}
+
+
+/* Tablet Grande */
+@media screen and (max-width: 1024px){
+
+}
+
+/* Notebook 14" */
+@media screen and (max-width: 1300px){
+
+  .proyectos{
+    padding: 10px 0;
+    margin-bottom: 30px;
   }
-  
-  @media screen and (max-width: 768px){
-    .projetos{
-      padding: 32px 0;
-    }
-    .projetos__img{
-      width: 90%;
-      height: 90%;
-    }
-    
-    .projetos__descricao{
-      padding-left: 5%;
-      align-self: flex-start;
-    }
+
+  .proyectos__titulo{
+    margin-bottom: 15px;
   }
+
+  .proyectos__img{
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+  }
+}

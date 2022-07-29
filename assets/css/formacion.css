@@ -48,9 +48,40 @@
 }
 
 
-@media screen and (max-width: 330px){
-    .formacao__figure__imagem{
-      width: 330px;
-        height: 286px;
+/* Smartphone */
+@media screen and (max-width: 480px){
+
+}
+
+
+/* Tablet Mediana */
+@media screen and (max-width: 768px){
+
+}
+
+
+/* Tablet Grande */
+@media screen and (max-width: 1024px){
+
+}
+
+/* Notebook 14" */
+@media screen and (max-width: 1300px){
+
+    .formacion{
+        padding: 40px 0;
     }
-  }
+    
+    .formacion__titulo{
+        margin-bottom: 40px;
+    }
+
+    .formacion__figura__imagen{
+        width: 320px;
+        height: 220px;
+    }
+
+    .formacion__figura p{
+        margin-bottom: 5px;
+    }
+}

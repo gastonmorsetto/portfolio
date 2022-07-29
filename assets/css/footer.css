@@ -53,3 +53,22 @@ footer{
     margin: 24px 5%;
 
 }
+
+
+/* Smartphone */
+@media screen and (max-width: 480px){
+
+}
+
+
+/* Tablet Mediana */
+@media screen and (max-width: 768px){
+
+}
+
+
+/* Tablet Grande */
+@media screen and (max-width: 1024px){
+
+}
+
